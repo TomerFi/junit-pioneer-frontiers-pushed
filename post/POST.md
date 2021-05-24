@@ -82,7 +82,7 @@ This is pretty straightforward, executing the main method will ask: "Hello, do y
 When testing code that takes data from `System`'s `in` stream and prints to its `out` stream, the basic and pretty much only way to test is by *hijacking* `System`'s streams, which means, replacing them with your streams for testing purposes, and then resetting them to their original ones once you're done.
 
 The following test class executes three test cases by specifying data to the `in` stream and validating the output on the `out` stream, after *hijacking* both streams of course.
-The test cases will test one scenario replying "yes", one by replying "sure", and one by replying "no" and then "yes":
+The test cases will test one scenario by replying "yes", one by replying "sure", and one by replying "no" and then "yes":
 
 ```java
 class Manual_Hijack_System_Streams_Test {
