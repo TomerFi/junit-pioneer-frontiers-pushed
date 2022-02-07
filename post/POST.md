@@ -3,6 +3,7 @@ title: JUnit Pioneer - Frontiers Pushed
 published: true
 description: JUnit Pioneer - Frontiers Pushed.
 tags: ["java", "test", "junit", "junitpioneer"]
+cover_image: https://source.unsplash.com/E0AHdsENmDg
 ---
 
 ## Making test code readable with JUnit Pioneer
